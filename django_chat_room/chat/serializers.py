@@ -1,15 +1,18 @@
+"""Serializers for converting querysets to JSON"""
 import re
 
 from rest_framework import serializers
-from django.contrib.auth.models import User
 from chat.models import Chat
-from django.core.validators import validate_email, EmailValidator
+
+from django.contrib.auth.models import User
+from django.core.validators import (validate_email,
+                                    EmailValidator)
 
 
 def text_validator(text_area):
     """Message validation (regex to check if message is not empty string, and length < 100)"""
 
-    if re.search("^\s*$", text_area) is None:
+    if re.search(r"^\s*$", text_area) is None:
         raise serializers.ValidationError('String is empty')
 
 

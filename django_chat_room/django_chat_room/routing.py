@@ -1,3 +1,4 @@
+"""Specifies when a connection is made to the Channels development server"""
 import os
 
 from channels.auth import AuthMiddlewareStack

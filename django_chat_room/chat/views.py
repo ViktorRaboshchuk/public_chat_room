@@ -1,10 +1,10 @@
+"""Views for creating endpoints"""
 from rest_framework import generics
-from rest_framework.response import Response
-from rest_framework.views import APIView
-
 from chat.models import Chat
 from chat.serializers import ChatSerializer, ChatCreateSerializer, ChatUpdateSerializer
 from chat.service import PaginationMovies
+# from rest_framework.response import Response
+# from rest_framework.views import APIView
 
 
 class MessageListView(generics.ListAPIView):
