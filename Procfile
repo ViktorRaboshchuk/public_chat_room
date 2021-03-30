@@ -1,1 +1,1 @@
-web: gunicorn django_chat_room.wsgi
+web: gunicorn django_chat_room.wsgi --log-file -
