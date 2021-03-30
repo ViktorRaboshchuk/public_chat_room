@@ -93,6 +93,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/django_chat_room/django_chat_room/wsgi.py">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/django_chat_room/requirements.txt">
           <value>
             <set />
