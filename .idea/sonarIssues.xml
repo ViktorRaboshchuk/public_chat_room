@@ -3,7 +3,17 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/django_chat_room/chat/admin.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/django_chat_room/chat/consumers.py">
           <value>
             <set />
           </value>
@@ -18,12 +28,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/django_chat_room/chat/routing.py">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/django_chat_room/chat/serializers.py">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/django_chat_room/chat/service.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/django_chat_room/chat/templates/index.html">
           <value>
             <set />
           </value>
@@ -38,6 +58,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/django_chat_room/django_chat_room/asgi.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/django_chat_room/django_chat_room/routing.py">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/django_chat_room/django_chat_room/settings.py">
           <value>
             <set />
@@ -48,7 +78,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/django_chat_room/requirements.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/django_chat_room/task.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/django_chat_room/ку.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pythonProject/django_movies/django_movies/asgi.py">
           <value>
             <set />
           </value>
