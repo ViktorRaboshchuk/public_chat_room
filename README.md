@@ -1,6 +1,7 @@
 # chat_room
 
 **Django Rest Framework public chat room application, where unauthenticated users can leave messages.**
+
 Link to heroku :
 https://django-chat-room-api.herokuapp.com/swagger/
 
