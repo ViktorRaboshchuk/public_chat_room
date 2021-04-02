@@ -12,6 +12,7 @@ Steps to deploy project to Heroku:
 - heroku git:remote -a django-main-api-chat
 - git add -A
 - git commit -am "commit message"
+- git push
 - heroku buildpacks:set heroku/python
 - git push heroku master
 - heroku run python manage.py migrate
