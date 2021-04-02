@@ -14,6 +14,7 @@ Steps to deploy project to Heroku:
 - git commit -am "commit message"
 - git push
 - heroku buildpacks:set heroku/python
+- heroku config:set     DISABLE_COLLECTSTATIC=1
 - git push heroku master
 - heroku run python manage.py migrate
 - heroku ps:scale web=1 (my deployment didn't work without it)
